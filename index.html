@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img src="person.jpeg" alt="Profile" class="userImage" width="50" height="57">
+            <textarea id="commentInput" placeholder="Please add your comment" style="height:55px;"></textarea>
+        </div>
+        <span id="name">Name</span>
+        <div class="buttons">
+            <button class="btn1" onclick="cancelComment()">Cancel ❌</button>
+            <button class="btn2" onclick="saveComment()">Save ✔️</button>
+        </div>
+        <ul id="commentList"></ul>
+
+        <script src="index.js"></script>
+    </div>
+</body> 
+</html>
